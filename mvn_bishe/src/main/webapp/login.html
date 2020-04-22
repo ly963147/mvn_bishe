@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div class="box">
+    <div class="top">
+        <div id="topleft"></div>
+        <div id="topright"> <a href="login">登陆</a> <a href="zhuce.html">注册</a> </div>
+    </div>
+    <div class="hezi">
+        <p>用户登录</p>
+        <br />
+        <hr />
+        <br />
+        <form action="login" method="post" onsubmit="return checkfrm(this)">
+            <table>
+                <tr>
+                    <td>用户名：</td>
+                    <td><input type="text" name="uname" size="30" class="tname" /></td>
+                </tr>
+                <tr>
+                    <td>密&nbsp;&nbsp;码：</td>
+                    <td><input type="password" name="upass" size="30" class="tname" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="登陆" class="btn" />
+                        <input type="button" value="注册" class="btn" onclick="location.href='zhuce.html'" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="foot">
+        <p class="myp"> 感谢使用 </p>
+    </div>
+</div>
+</body>
+</html>

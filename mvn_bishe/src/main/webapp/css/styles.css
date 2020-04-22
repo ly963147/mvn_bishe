@@ -1,0 +1,206 @@
+/**��ʼ��*/
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: red
+}
+img{
+  border: none;
+}
+ul{
+	list-style: none;
+	margin:8px;
+}
+li{
+	float: left;
+}
+span{
+	color:red;
+}
+/***��ҳ��****/
+.box{
+  width: 826px;
+  margin: 0 auto;
+  border: 1px solid #5DBBC5;
+}
+.top{
+   height: 30px;
+   border: 1px solid #f3f3f3;
+   line-height: 30px;
+   padding:0 5px;
+}
+.top a{
+	color:#EF7000;
+}
+#topleft{
+	float:left;
+}
+#topright{
+	float:right;
+}
+.head{
+  height: 350px;
+	width: 100%px;
+    background: url("../images/000.jpeg") no-repeat #f3f3f3;
+  text-align: center;
+}
+.menu{
+   height: 42px;
+   background: url("../images/001.gif");
+   text-align: center;
+   line-height: 42px;
+}
+.logo{
+   height: 42px;
+}
+.welcome{
+    height: 50px;
+    background: url("../images/004.gif") repeat-x bottom;
+    line-height: 30px;
+}
+.select{
+	width:500px;
+	height:35px;
+}
+.main{
+   height: 200px;
+}
+.main table{
+	width:200px;
+	height:21px;
+	margin:2px 0 0 2px;
+	border: 3px solid #EF7000;
+	line-height: 21px;
+	padding:2px;
+}
+.foot{
+   height: 120px;
+   background: #f3f3f3;
+   text-align: center;
+   line-height:100px; 
+}
+#page{
+	text-align: right;
+	margin:10px;
+}
+#page a{
+	border:1px solid gray;
+}
+/***��½ҳ��****/
+.hezi{
+	margin:100px auto;
+	width:420px;
+	height:250px;
+	border:1px solid  #0CF;
+	padding:10px;
+	background:snow;
+}
+.hezi p{
+	font-weight:bold;
+	font-size:18px;
+}
+.hezi table{
+	margin:35px auto;
+	line-height: 30px;
+}
+.btn{
+	margin-top:30px;
+	margin-left:30px;
+	width:80px;
+	height:35px;
+	background:snow ;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.tname{
+	width:180px;
+	height:25px;
+}
+
+/***�˵�����ҳ��****/
+.info{
+	width:786px;
+	padding:20px;
+}
+#img{
+	float:left;
+	width:310px;
+	height:290px;
+	margin-right:50px;
+}
+#info{
+	float:left;
+	width:350px;
+	height:296px;
+	padding-top:10px;
+}
+#info h3{
+	color:red;
+	font-size:25px;
+	font-weight:bold;;
+}
+#info p{
+	margin-top:15px;
+	font-size:15px;
+}
+#dp{
+	width:750px;
+	clear: both;
+}
+#dp th{
+	color:blue;
+	text-align: center;
+}
+/***userinfoҳ��****/
+.userinfo table{
+	margin:0 auto;
+	text-align: center;
+}
+/***buyҳ��****/
+#buy{
+	margin:0 auto;
+	text-align: center;
+}
+#buy tbody{
+	border: 1px solid gray;
+}
+#buy tbody td{
+	border: 1px solid gray;
+}
+#c{
+	margin:0 8px;
+}
+/***meuncritҳ��***/
+#content table td{
+	text-align:center;
+	border: 1px solid;
+	color:gray;
+}
+
+
+
+.myp{
+height:40px;
+text-align:center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
